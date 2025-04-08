@@ -24,7 +24,6 @@ class CircularQueue {
             console.log("Queue is empty")
             return
         }
-        
         if(this.frontIndex == this.rearIndex){
             this.frontIndex = -1
             this.rearIndex = -1
